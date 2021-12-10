@@ -1,0 +1,21 @@
+2017-10-24 03:30:49,648 Information: yum:22036:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-10-24 03:30:49,650 Information: yum:22036:MainThread @repolib.py:326 - repos updated: Repo updates
+2017-10-24 03:30:53,368 Information: yum:22052:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-10-24 03:30:53,370 Information: yum:22052:MainThread @repolib.py:326 - repos updated: Repo updates
+2017-11-09 02:42:40,586 Information: rhsmd:1925:MainThread @rhsmd:270 - rhsmd started
+2017-11-09 02:42:41,223 Information: subscription-manager:1947:MainThread @managercli.py:518 - X-Correlation-ID: 1d4ec4de17004c63b6c6606932eb2d77
+2017-11-09 02:42:41,223 Information: subscription-manager:1947:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,224 Information: subscription-manager:1947:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-11-09 02:42:41,224 Information: subscription-manager:1947:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=none
+2017-11-09 02:42:41,297 Information: subscription-manager:1947:MainThread @managercli.py:418 - Server Versions: {'rules-version': u'Unknown', 'candlepin': u'Unknown', 'server-type': u'This system is currently not registered.'}
+2017-11-09 02:42:41,714 Information: subscription-manager:1968:MainThread @managercli.py:518 - X-Correlation-ID: b50f4c796e2f4e5795df2254e0e7e620
+2017-11-09 02:42:41,714 Information: subscription-manager:1968:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,715 Information: subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-11-09 02:42:41,715 Information: subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=none
+2017-11-09 02:42:41,715 Information: subscription-manager:1968:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,726 Information: subscription-manager:1968:MainThread @managercli.py:382 - Consumer Identity name=None uuid=None
+2017-11-09 02:42:41,727 Information: subscription-manager:1968:MainThread @managercli.py:382 - Consumer Identity name=None uuid=None
+2017-11-09 02:42:41,728 Information: subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=basic username=XXXXX
+2017-11-09 02:42:41,779 Information: subscription-manager:1968:MainThread @dmiinfo.py:73 - Using dmidecode dump file: /dev/mem
+2017-11-09 02:42:41,821 Information: subscription-manager:1968:MainThread @custom.py:85 - Loading custom facts from: /etc/rhsm/facts/cdk.facts
+2017-10-24 03:30:52,707 Warning: yum:22036:MainThread @logutil.py:142 - logging already initialized

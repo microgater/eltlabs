@@ -1,0 +1,101 @@
+2017-10-24 03:30:49,648 [INFO] yum:22036:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-10-24 03:30:49,650 [INFO] yum:22036:MainThread @repolib.py:326 - repos updated: Repo updates
+
+Total repo updates: 0
+Updated
+    <NONE>
+Added (new)
+    <NONE>
+Deleted
+    <NONE>
+2017-10-24 03:30:52,707 [WARNING] yum:22036:MainThread @logutil.py:142 - logging already initialized
+2017-10-24 03:30:53,368 [INFO] yum:22052:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-10-24 03:30:53,370 [INFO] yum:22052:MainThread @repolib.py:326 - repos updated: Repo updates
+
+Total repo updates: 0
+Updated
+    <NONE>
+Added (new)
+    <NONE>
+Deleted
+    <NONE>
+2017-11-09 02:42:40,586 [INFO] rhsmd:1925:MainThread @rhsmd:270 - rhsmd started
+2017-11-09 02:42:41,223 [INFO] subscription-manager:1947:MainThread @managercli.py:518 - X-Correlation-ID: 1d4ec4de17004c63b6c6606932eb2d77
+2017-11-09 02:42:41,223 [INFO] subscription-manager:1947:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,224 [INFO] subscription-manager:1947:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-11-09 02:42:41,224 [INFO] subscription-manager:1947:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=none
+2017-11-09 02:42:41,293 [ERROR] subscription-manager:1947:MainThread @utils.py:271 - Error while checking server version: [Errno -2] Name or service not known
+2017-11-09 02:42:41,293 [ERROR] subscription-manager:1947:MainThread @utils.py:273 - [Errno -2] Name or service not known
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/subscription_manager/utils.py", line 251, in get_server_versions
+    if cp.supports_resource("status"):
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 847, in supports_resource
+    self._load_supported_resources()
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 834, in _load_supported_resources
+    resources_list = self.conn.request_get("/")
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 645, in request_get
+    return self._request("GET", method, headers=headers)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 671, in _request
+    info=info, headers=headers)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 527, in _request
+    conn.request(request_type, handler, body=body, headers=final_headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 1227, in connect
+    HTTPConnection.connect(self)
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+2017-11-09 02:42:41,297 [INFO] subscription-manager:1947:MainThread @managercli.py:418 - Server Versions: {'rules-version': u'Unknown', 'candlepin': u'Unknown', 'server-type': u'This system is currently not registered.'}
+2017-11-09 02:42:41,714 [INFO] subscription-manager:1968:MainThread @managercli.py:518 - X-Correlation-ID: b50f4c796e2f4e5795df2254e0e7e620
+2017-11-09 02:42:41,714 [INFO] subscription-manager:1968:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,715 [INFO] subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm/ca/ insecure=False
+2017-11-09 02:42:41,715 [INFO] subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=none
+2017-11-09 02:42:41,715 [INFO] subscription-manager:1968:MainThread @managercli.py:407 - Client Versions: {'python-rhsm': '1.19.10-1.el7_4', 'subscription-manager': '1.19.23-1.el7_4'}
+2017-11-09 02:42:41,726 [INFO] subscription-manager:1968:MainThread @managercli.py:382 - Consumer Identity name=None uuid=None
+2017-11-09 02:42:41,727 [INFO] subscription-manager:1968:MainThread @managercli.py:382 - Consumer Identity name=None uuid=None
+2017-11-09 02:42:41,728 [INFO] subscription-manager:1968:MainThread @connection.py:821 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=basic username=XXXXX
+2017-11-09 02:42:41,779 [INFO] subscription-manager:1968:MainThread @dmiinfo.py:73 - Using dmidecode dump file: /dev/mem
+2017-11-09 02:42:41,821 [INFO] subscription-manager:1968:MainThread @custom.py:85 - Loading custom facts from: /etc/rhsm/facts/cdk.facts
+2017-11-09 02:42:41,829 [ERROR] subscription-manager:1968:MainThread @managercli.py:177 - Error during registration: [Errno -2] Name or service not known
+2017-11-09 02:42:41,829 [ERROR] subscription-manager:1968:MainThread @managercli.py:178 - [Errno -2] Name or service not known
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/subscription_manager/managercli.py", line 1184, in _do_command
+    owner_key = self._determine_owner_key(admin_cp)
+  File "/usr/lib/python2.7/site-packages/subscription_manager/managercli.py", line 1336, in _determine_owner_key
+    owners = cp.getOwnerList(self.username)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 1117, in getOwnerList
+    return self.conn.request_get(method)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 645, in request_get
+    return self._request("GET", method, headers=headers)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 671, in _request
+    info=info, headers=headers)
+  File "/usr/lib64/python2.7/site-packages/rhsm/connection.py", line 527, in _request
+    conn.request(request_type, handler, body=body, headers=final_headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1017, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib64/python2.7/httplib.py", line 1051, in _send_request
+    self.endheaders(body)
+  File "/usr/lib64/python2.7/httplib.py", line 1013, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib64/python2.7/httplib.py", line 864, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.7/httplib.py", line 826, in send
+    self.connect()
+  File "/usr/lib64/python2.7/httplib.py", line 1227, in connect
+    HTTPConnection.connect(self)
+  File "/usr/lib64/python2.7/httplib.py", line 807, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib64/python2.7/socket.py", line 553, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known

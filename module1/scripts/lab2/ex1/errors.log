@@ -1,0 +1,52 @@
+Oct  9 02:17:03 UbuntuMate apparmor.systemd[486]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 02:17:03 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 02:17:03 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 02:17:03 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 02:17:03 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="575" x-info="https://www.rsyslog.com"] start
+Oct  9 18:04:23 UbuntuMate apparmor.systemd[487]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 18:04:23 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 18:04:23 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 18:04:23 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 18:04:23 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="570" x-info="https://www.rsyslog.com"] start
+Oct  9 20:28:50 UbuntuMate apparmor.systemd[487]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 20:28:50 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 20:28:50 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 20:28:50 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 20:28:50 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="582" x-info="https://www.rsyslog.com"] start
+Oct  9 20:50:21 UbuntuMate apparmor.systemd[487]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 20:50:21 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 20:50:21 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 20:50:21 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 20:50:21 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="570" x-info="https://www.rsyslog.com"] start
+Oct  9 21:21:02 UbuntuMate apparmor.systemd[491]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 21:21:02 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 21:21:02 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 21:21:02 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 21:21:02 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="574" x-info="https://www.rsyslog.com"] start
+Oct  9 21:55:02 UbuntuMate apparmor.systemd[490]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct  9 21:55:02 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct  9 21:55:02 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct  9 21:55:02 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct  9 21:55:02 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="573" x-info="https://www.rsyslog.com"] start
+Oct 10 22:12:11 UbuntuMate apparmor.systemd[489]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 10 22:12:11 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct 10 22:12:11 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct 10 22:12:11 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct 10 22:12:11 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="572" x-info="https://www.rsyslog.com"] start
+Oct 11 16:12:51 UbuntuMate apparmor.systemd[489]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 11 16:12:51 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct 11 16:12:51 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct 11 16:12:51 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct 11 16:12:51 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="573" x-info="https://www.rsyslog.com"] start
+Двоичный файл /var/log/journal/5890ad0b7583475c80ecf75a4f4556ac/system.journal совпадает
+Oct 11 16:12:57 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="573" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 11 16:26:33 UbuntuMate apparmor.systemd[486]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 11 16:26:33 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct 11 16:26:33 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct 11 16:26:33 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct 11 16:26:33 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="585" x-info="https://www.rsyslog.com"] start
+Oct 11 16:32:03 UbuntuMate apparmor.systemd[491]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Oct 11 16:32:03 UbuntuMate rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Oct 11 16:32:03 UbuntuMate rsyslogd: rsyslogd's groupid changed to 110
+Oct 11 16:32:03 UbuntuMate rsyslogd: rsyslogd's userid changed to 104
+Oct 11 16:32:03 UbuntuMate rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="589" x-info="https://www.rsyslog.com"] start

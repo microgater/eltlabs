@@ -1,0 +1,80 @@
+Nov 26 11:17:12.325 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Nov 26 11:17:12.325 HYPERVISOR: Started on IP = localhost, TCP port = 54871.
+Nov 26 11:17:12.335 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 26 11:17:12.336 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/lab3/project-files/dynamips 
+Nov 26 11:17:12.336 GENERAL: working_dir=/home/user/GNS3/projects/lab3/project-files/dynamips
+Nov 26 11:17:12.336 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/lab3/project-files/dynamips/b6621cff-2edd-47ce-81a0-774743e1f577 
+Nov 26 11:17:12.336 GENERAL: working_dir=/home/user/GNS3/projects/lab3/project-files/dynamips/b6621cff-2edd-47ce-81a0-774743e1f577
+Nov 26 11:17:12.336 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Nov 26 11:17:12.337 VM: VM R3 created.
+Nov 26 11:17:12.337 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Nov 26 11:17:12.337 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Nov 26 11:17:12.338 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:12.338 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Nov 26 11:17:12.339 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Nov 26 11:17:12.340 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:12.340 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x6089511c 
+Nov 26 11:17:12.341 HYPERVISOR: exec_cmd: vm set_ios R3 /home/user/GNS3/images/IOS/c7200-p-mz.123-19.image 
+Nov 26 11:17:12.342 HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.0bb2.0000 
+Nov 26 11:17:12.343 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Nov 26 11:17:12.343 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:12.344 HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
+Nov 26 11:17:12.344 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:12.344 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-2FE 
+Nov 26 11:17:12.345 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:12.345 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-2FE-TX 
+Nov 26 11:17:13.157 HYPERVISOR: exec_cmd: nio create_udp udp-59b9ce2b-d7ef-4012-956c-18a6130f53bd 10004 127.0.0.1 10005 
+Nov 26 11:17:13.389 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-59b9ce2b-d7ef-4012-956c-18a6130f53bd 
+Nov 26 11:17:13.389 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:13.582 HYPERVISOR: exec_cmd: nio create_udp udp-c08da521-9e60-4402-9896-c71b82588938 10008 127.0.0.1 10009 
+Nov 26 11:17:13.593 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-c08da521-9e60-4402-9896-c71b82588938 
+Nov 26 11:17:13.595 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:14.015 HYPERVISOR: exec_cmd: nio create_udp udp-7721c8e1-9b11-4100-90b1-e2b58386eca7 10014 127.0.0.1 10015 
+Nov 26 11:17:14.017 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 1 udp-7721c8e1-9b11-4100-90b1-e2b58386eca7 
+Nov 26 11:17:14.018 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:17:15.779 HYPERVISOR: exec_cmd: nio create_udp udp-2386899f-4993-40bb-8de4-3322576cfa64 10040 127.0.0.1 10041 
+Nov 26 11:17:15.783 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 1 udp-2386899f-4993-40bb-8de4-3322576cfa64 
+Nov 26 11:17:15.784 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:18:01.384 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 26 11:18:01.384 VM: VM Ghost created.
+Nov 26 11:18:01.389 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/user/GNS3/images/IOS/c7200-p-mz.123-19.image 
+Nov 26 11:18:01.389 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 26 11:18:01.391 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/user/GNS3/projects/lab3/project-files/dynamips/c7200-p-mz.123-19.image-256.ghost 
+Nov 26 11:18:01.393 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Nov 26 11:18:01.396 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 26 11:18:01.403 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Nov 26 11:18:01.404 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 26 11:18:01.850 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 26 11:18:01.851 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 26 11:18:02.067 VM: VM Ghost shutdown.
+Nov 26 11:18:02.068 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 26 11:18:02.071 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 26 11:18:02.071 VM: VM Ghost destroyed.
+Nov 26 11:18:02.073 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Nov 26 11:18:02.074 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/user/GNS3/projects/lab3/project-files/dynamips/c7200-p-mz.123-19.image-256.ghost 
+Nov 26 11:18:02.074 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 11:18:02.075 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg configs/i3_private-config.cfg 
+Nov 26 11:18:02.076 HYPERVISOR: exec_cmd: vm start R3 
+Nov 26 11:18:32.290 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 26 12:14:27.366 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 12:14:27.368 HYPERVISOR: exec_cmd: vm stop R3 
+Nov 26 12:14:27.720 VM: VM R3 shutdown.
+Nov 26 12:14:27.722 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 26 12:16:13.363 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Nov 26 12:16:13.367 HYPERVISOR: exec_cmd: vm set_ghost_file R3 /home/user/GNS3/projects/lab3/project-files/dynamips/c7200-p-mz.123-19.image-256.ghost 
+Nov 26 12:16:13.370 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 12:16:13.372 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg configs/i3_private-config.cfg 
+Nov 26 12:16:13.373 HYPERVISOR: exec_cmd: vm start R3 
+Nov 26 12:19:50.463 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 12:19:50.464 HYPERVISOR: exec_cmd: vm stop R3 
+Nov 26 12:19:50.785 VM: VM R3 shutdown.
+Nov 26 12:19:50.788 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 26 12:20:04.466 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 12:20:04.468 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 26 12:20:04.766 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 26 12:20:04.770 HYPERVISOR: exec_cmd: vm extract_config R3 
+Nov 26 12:20:04.778 HYPERVISOR: exec_cmd: vm delete R3 
+Nov 26 12:20:04.778 VM: VM R3 destroyed.
+Nov 26 12:20:04.785 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 26 12:20:04.975 HYPERVISOR: Stopped.
+Nov 26 12:20:04.975 GENERAL: reset done.
